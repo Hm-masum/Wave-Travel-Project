@@ -38,6 +38,21 @@
         width: 60%;
         margin-left: 0;
     }
+    .destination-content .row-1,
+    .destination-content .row-2,
+    .destination-content .row-3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .destination-content img {
+        width: 100%;
+        height: 200px;
+    }
+    .destination-content .row-1 .title,
+    .destination-content .row-2 .title,
+    .destination-content .row-3 .title {
+        top: 50px;
+        right: 30%;
+    }
     .choose-content .card {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -63,6 +78,13 @@
     .subscribe .common-btn {
         margin-left: 0;
     }
+    .discount-content .information {
+        flex-direction: column;
+        gap: 0;
+    }
+    .special-btn {
+        display: none;
+    }
     .subscribe-from {
         height: auto;
         width: auto;
@@ -73,5 +95,8 @@
     .subscribe-content .badge {
         width: 210px;
         height: 80px;
+    }
+    footer {
+        padding: 10px;
     }
 }

@@ -15,7 +15,6 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    border: 2px solid red;
     padding: 20px;
 }
 
@@ -108,6 +107,7 @@ nav .nav-item li {
     background-size: cover;
     background-position: center;
     height: 550px;
+    border-radius: 8px;
 }
 
 .banner-content {
@@ -191,6 +191,54 @@ select {
     padding: 15px 0 40px 0;
 }
 
+.destination-content .img {
+    position: relative;
+}
+
+.destination-content .row-1 .title {
+    position: absolute;
+    top: 120px;
+    right: 40%;
+}
+
+.destination-content .row-2 .title {
+    position: absolute;
+    top: 120px;
+    right: 30%;
+}
+
+.destination-content .row-3 .title {
+    position: absolute;
+    top: 120px;
+    right: 35%;
+}
+
+.destination-content .row-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.destination-content .row-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.destination-content .row-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.destination-content h2 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
 
 /* Choose section */
 
@@ -239,6 +287,7 @@ select {
     display: flex;
     align-items: center;
     justify-content: right;
+    border-radius: 8px;
 }
 
 .discount-content {
@@ -268,6 +317,7 @@ select {
     height: 500px;
     display: flex;
     align-items: center;
+    border-radius: 8px;
 }
 
 .discount-item-content-2 {
@@ -278,6 +328,20 @@ select {
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.428);
     margin-left: 50px;
+}
+
+.discount-content .information {
+    display: flex;
+    gap: 20px;
+}
+
+.discount-content .information * {
+    color: #FF5400;
+}
+
+.special-btn {
+    padding: 30px 0;
+    text-align: center;
 }
 
 
@@ -387,4 +451,10 @@ footer {
 
 hr {
     margin: 50px 0;
+}
+
+#choose,
+#discount,
+#subscription {
+    padding-top: 30px;
 }
