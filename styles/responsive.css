@@ -70,4 +70,8 @@
     .subscribe-content img {
         width: 100%;
     }
+    .subscribe-content .badge {
+        width: 210px;
+        height: 80px;
+    }
 }

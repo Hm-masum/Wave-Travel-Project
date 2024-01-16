@@ -340,6 +340,24 @@ select {
     margin: 30px 0;
 }
 
+.subscribe-content {
+    position: relative;
+}
+
+.subscribe-content .badge {
+    background-color: #FF5400;
+    border-radius: 16px;
+    width: 310px;
+    height: 100px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+}
+
 
 /* Footer styles */
 
