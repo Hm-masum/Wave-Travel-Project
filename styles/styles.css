@@ -180,14 +180,14 @@ select {
 
 .destination-text,
 .choose-text,
-.discout-text {
+.discount-text {
     max-width: 650px;
     margin: 0 auto;
 }
 
 .destination-text p,
 .choose-text p,
-.discout-text p {
+.discount-text p {
     padding: 15px 0 40px 0;
 }
 
@@ -276,7 +276,7 @@ select {
 }
 
 
-/* Discount Sextion */
+/* Discount Section */
 
 .discount-content .discount-item-1 {
     background-image: url(../Images/Group\ 39.png);
